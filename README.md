@@ -29,7 +29,7 @@ When designing applications there are many different ways to build a full stack 
 
 To build an app like this we need to build an an API layer for our data. To better understand this lets look at an example. 
 
-![Web API Layer](https://s3.amazonaws.com/learn-verified/Web+API+Layer.png)
+![Web API Layer](https://s3.amazonaws.com/learn-verified/api-layer-image.png)
 
 In the photo above we have 2 layers:
 
