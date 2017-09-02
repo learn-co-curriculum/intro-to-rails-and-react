@@ -27,7 +27,7 @@ That is a ton of knowledge, so now we need to take all of these skills and build
 
 When designing applications there are many different ways to build a full stack app. We can use full server side rendering, like we did with our previous Rails' apps using .erb files, we could design a service with no client facing views (similiar to a database service like firebase) or we can design an app in layers that allows for exandable interfaces. Let's assume for a minute that we need to build an application that supplies data for mobile phones, a web browser, an apple watch, Roku, AppleTV, desktop application, and....... some distant client in Norway needs our endpoint for his shpping app. Building an app that just serves static content with Rails and .erb would not be an option, so we need to look at how to build gateway application that allows us to send, create, update and delete (CRUD) data for many unique services. 
 
-To build an app like this we need to build an an API layer for our data. To better understand this lets look at an example. 
+To build an app like this we need an API layer for handle our data. To better understand this lets look at an example. 
 
 ![Web API Layer](https://s3.amazonaws.com/learn-verified/api-layer-image.png)
 
